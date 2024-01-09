@@ -1,0 +1,5 @@
+FROM python:3
+WORKDIR /logs
+COPY . /logs
+EXPOSE 80
+CMD ["python", "server.py"]
